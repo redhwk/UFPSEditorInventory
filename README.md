@@ -11,11 +11,15 @@ Weapon Item Editor - This creates a Window that you can dock.  The editor is a b
 
 Note - I have not created a foldout or value for every possibility.  This can be extended for anyone wanting to put in the effort
 Show Item List = Shows where the list is in your project Folder
+
 Open Item List = Opens a window
+
 Create New Item List = CAUTION: this will create a default named list.  You should change the name as soon as you create it otherwise this could overwrite your previously created list
 
 Prev & Next = These buttons cycle through your list
+
 Add Item = Add an item to your list
+
 Delete Item = Delete the current item from your list
 
 Build a UFPS Weapon - This allows you to select your List via a Dropdown menu (from above), provide a new Weapon Name (example 6Pistol), assign a weapon object, and select your UFPS Character FPSCamera (must have vp_FPCamera) parent.

@@ -22,7 +22,7 @@ Add Item = Add an item to your list
 
 Delete Item = Delete the current item from your list
 
-Build a UFPS Weapon - This allows you to select your List via a Dropdown menu (from above), provide a new Weapon Name (example 6Pistol), assign a weapon object, and select your UFPS Character FPSCamera (must have vp_FPCamera) parent.
+Build a UFPS Weapon - This allows you to select your List, select a Weapon via a Dropdown menu (from above), provide a new Weapon Name (example 6Pistol), assign a weapon object, and select your UFPS Character FPSCamera (must have vp_FPCamera) parent.
 
 Build a Melee or Grenade - This duplicates 5Knife or 4GrenadeThrow from the HeroHDWeapons player prefab that comes with UFPS as a starting point.
 

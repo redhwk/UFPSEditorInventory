@@ -1,6 +1,8 @@
 # UFPSEditorInventory
 Editor Inventory I created to store UFPS weapon information.  This can be expanded easily enough. Let me know if you find this useful or would like me to add anything.
+
 Purpose - The goal was to have an easy to access dictionary/list of weapons to apply to any UFPS character.  This way you could store your settings for any particular list and apply them to all of your various characters as a starting point.  Maybe this will be useful to someone.  I was hoping to create an easy way to share weapon settings.
+
 End Result - This works fine, and very quickly.  It's probably good for someone, but I'm not going to use this since it's just as quick to duplicate an existing weapon, make the tweaks, and save it as a prefab.
 
 You will find a few Editor Windows all located under Tools\RedHawk\:

@@ -74,6 +74,7 @@ namespace RedHawk{
 			t_FPWeap.WeaponPrefab = newWeaponObject;
 			//IF NOT LISTED then using defaults
 			t_FPWeap.PositionOffset = _myDefaults.weaponItems[selectedWeaponNumber].weaponPositionSprings;
+			t_FPWeap.RotationOffset = _myDefaults.weaponItems[selectedWeaponNumber].weaponRotationSprings;
 			if(_myDefaults.weaponItems[selectedWeaponNumber].weaponWieldSound!=null)t_FPWeap.SoundWield = _myDefaults.weaponItems[selectedWeaponNumber].weaponWieldSound;
 			if(_myDefaults.weaponItems[selectedWeaponNumber].weaponUnWieldSound!=null)t_FPWeap.SoundUnWield = _myDefaults.weaponItems[selectedWeaponNumber].weaponUnWieldSound;
 			if(_myDefaults.weaponItems[selectedWeaponNumber].weaponWieldAnim!=null)t_FPWeap.AnimationWield = _myDefaults.weaponItems[selectedWeaponNumber].weaponWieldAnim;

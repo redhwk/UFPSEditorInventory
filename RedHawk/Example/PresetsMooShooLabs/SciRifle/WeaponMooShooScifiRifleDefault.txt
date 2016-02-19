@@ -1,0 +1,71 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeapon
+RenderingZoomDamping 0.5
+RenderingFieldOfView 65
+RenderingClippingPlanes 0.01 10
+RenderingZScale 1
+PositionSpringStiffness 0.01
+PositionSpringDamping 0.25
+PositionFallRetract 1
+PositionPivotSpringStiffness 0.01
+PositionPivotSpringDamping 0.25
+PositionKneeling 0.06
+PositionKneelingSoftness 1
+PositionWalkSlide 0.5 0.75 0.5
+PositionPivot 0 0 0
+RotationPivot 0 0 0
+PositionInputVelocityScale 1
+PositionMaxInputVelocity 25
+RotationSpringStiffness 0.01
+RotationSpringDamping 0.25
+RotationPivotSpringStiffness 0.01
+RotationPivotSpringDamping 0.25
+RotationKneeling 0
+RotationKneelingSoftness 1
+RotationLookSway 1 0.7 0
+RotationStrafeSway 0.3 1 1.5
+RotationFallSway 1 -0.5 -3
+RotationSlopeSway 0.5
+RotationInputVelocityScale 1
+RotationMaxInputVelocity 15
+RetractionDistance 0
+RetractionOffset 0 0
+RetractionRelaxSpeed 0.25
+ShakeSpeed 0.05
+ShakeAmplitude 0.25 0 2
+BobRate 0.9 0.45 0 0
+BobAmplitude 0.35 0.5 0 0
+BobInputVelocityScale 1
+BobMaxInputVelocity 100
+BobRequireGroundContact True
+StepPositionForce 0 -0.0012 -0.0012
+StepRotationForce 0 0 0
+StepSoftness 4
+StepMinVelocity 0
+StepPositionBalance 0
+StepRotationBalance 0
+StepForceScale 1
+LookDownActive False
+LookDownYawLimit 60
+LookDownPositionOffsetMiddle 0.32 -0.37 0.78
+LookDownPositionOffsetLeft 0.27 -0.31 0.7
+LookDownPositionOffsetRight 0.6 -0.41 0.86
+LookDownPositionSpringPower 1
+LookDownRotationOffsetMiddle -3.9 2.24 4.69
+LookDownRotationOffsetLeft -7 -10.5 15.6
+LookDownRotationOffsetRight -9.2 -9.8 48.84
+LookDownRotationSpringPower 1
+AmbientInterval 2.5 7.5
+PositionExitOffset 0 -1 0
+RotationExitOffset 40 0 0
+PositionOffset 0.15 -0.3 0.33
+PositionSpring2Stiffness 0.95
+PositionSpring2Damping 0.25
+RotationOffset 0 0 0
+RotationSpring2Stiffness 0.95
+RotationSpring2Damping 0.25
+AnimationType 1
+AnimationGrip 1

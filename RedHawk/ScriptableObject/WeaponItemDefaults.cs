@@ -18,6 +18,7 @@ namespace RedHawk{
 		public float renderingFieldOfView = 35.0f;
 		public float renderingZoomDamping = 0.5f;
 		public Vector3 weaponPositionSprings = new Vector3(-0.15f,-0.3f,-0.15f);
+		public Vector3 weaponRotationSprings = new Vector3(-0.15f,-0.3f,-0.15f);
 		public TextAsset weaponReloadState, weaponZoomState, weaponOutOfControlState, weaponSlideState, weaponCrouchState, weaponRunState, weaponAttackState;
 		public TextAsset weaponShooterZoomState;
 		public AudioClip weaponWieldSound, weaponUnWieldSound;

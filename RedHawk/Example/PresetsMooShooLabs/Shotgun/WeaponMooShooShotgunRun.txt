@@ -1,0 +1,71 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeapon
+RenderingZoomDamping 0.5
+RenderingFieldOfView 35
+RenderingClippingPlanes 0.26 10
+RenderingZScale 1
+PositionSpringStiffness 0.01
+PositionSpringDamping 0.55
+PositionFallRetract 0
+PositionPivotSpringStiffness 0.01
+PositionPivotSpringDamping 0.25
+PositionKneeling 0.06
+PositionKneelingSoftness 1
+PositionWalkSlide 1 0 0.5
+PositionPivot -0.32 -0.4 -0.08
+RotationPivot 0 0 0
+PositionInputVelocityScale 1
+PositionMaxInputVelocity 25
+RotationSpringStiffness 0.01
+RotationSpringDamping 0.55
+RotationPivotSpringStiffness 0.01
+RotationPivotSpringDamping 0.25
+RotationKneeling 0
+RotationKneelingSoftness 1
+RotationLookSway 2 0.5 0
+RotationStrafeSway 1 0 4
+RotationFallSway 2 0 -3
+RotationSlopeSway 0
+RotationInputVelocityScale 1
+RotationMaxInputVelocity 15
+RetractionDistance 0
+RetractionOffset 0 0
+RetractionRelaxSpeed 0.25
+ShakeSpeed 0
+ShakeAmplitude 0.25 0 2
+BobRate 1.8 0.9 0.9 0.9
+BobAmplitude 150 180 120 -4
+BobInputVelocityScale 1
+BobMaxInputVelocity 5.5
+BobRequireGroundContact True
+StepPositionForce 0 -0.0015 -0.0025
+StepRotationForce -0.25 0 -1.5
+StepSoftness 5
+StepMinVelocity 70
+StepPositionBalance 0.1
+StepRotationBalance 0
+StepForceScale 1
+LookDownActive False
+LookDownYawLimit 60
+LookDownPositionOffsetMiddle 0.32 -0.37 0.78
+LookDownPositionOffsetLeft 0.27 -0.31 0.7
+LookDownPositionOffsetRight 0.6 -0.41 0.86
+LookDownPositionSpringPower 1
+LookDownRotationOffsetMiddle -3.9 2.24 4.69
+LookDownRotationOffsetLeft -7 -10.5 15.6
+LookDownRotationOffsetRight -9.2 -9.8 48.84
+LookDownRotationSpringPower 1
+AmbientInterval 2.5 7.5
+PositionExitOffset 0 -0.5 0
+RotationExitOffset 40 0 0
+PositionOffset -0.07 -0.35 0.98
+PositionSpring2Stiffness 0.95
+PositionSpring2Damping 0.25
+RotationOffset 9.5 -23.55 4.6
+RotationSpring2Stiffness 0.95
+RotationSpring2Damping 0.25
+AnimationType 1
+AnimationGrip 1

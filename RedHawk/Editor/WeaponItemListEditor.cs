@@ -110,6 +110,7 @@ namespace RedHawk{
 						DefaultsList.weaponItems[viewIndex-1].renderingFieldOfView = EditorGUILayout.FloatField("Field of View",DefaultsList.weaponItems[viewIndex-1].renderingFieldOfView);
 						DefaultsList.weaponItems[viewIndex-1].renderingZoomDamping = EditorGUILayout.FloatField("Zoom Damping",DefaultsList.weaponItems[viewIndex-1].renderingZoomDamping);
 						DefaultsList.weaponItems[viewIndex-1].weaponPositionSprings = EditorGUILayout.Vector3Field("Position Offset Springs",DefaultsList.weaponItems[viewIndex-1].weaponPositionSprings);
+						DefaultsList.weaponItems[viewIndex-1].weaponRotationSprings = EditorGUILayout.Vector3Field("Rotation Offset Springs",DefaultsList.weaponItems[viewIndex-1].weaponRotationSprings);
 					}
 					GUILayout.Space(12);
 					//Weapon Foldout
